@@ -1,103 +1,126 @@
-# India Crime Intelligence Dashboard (2001–2013)
+# 🇮🇳 India Crime Intelligence Dashboard (2001–2013)
 
-This project analyzes crime patterns across India using district-level crime data from 2001 to 2013.  
-The goal is to explore crime trends, identify high-crime regions, and visualize patterns using Python and Power BI.
+A data analytics project exploring district-level crime patterns in India using **Python (Pandas, NumPy, Matplotlib, Seaborn)** and **Power BI**.
 
----
-
-# Project Overview
-
-Crime data from Indian states and districts was analyzed to answer key questions such as:
-
-• Which states report the highest number of crimes  
-• How crime trends changed between 2001 and 2013  
-• Which districts have the highest crime levels  
-• Which crime categories dominate national statistics  
-• Which crime types have grown the most over time  
-
-The project combines **Python for data analysis** and **Power BI for interactive dashboards**.
+This project analyzes historical crime data to uncover trends, high-crime regions, dominant crime categories, and long-term growth patterns.
 
 ---
 
-# Tools & Technologies
+## 📌 Project Objective
 
-Python  
-Pandas  
-NumPy  
-Matplotlib  
-Seaborn  
-Power BI  
+The goal of this project is to:
 
----
-
-# Dataset
-
-The dataset contains district-level crime statistics recorded under the **Indian Penal Code (IPC)**.
-
-Key columns include:
-
-STATE/UT — State or Union Territory  
-DISTRICT — District name  
-YEAR — Year of recorded crimes  
-Crime Categories — Various IPC crime types  
-TOTAL IPC CRIMES — Total crimes recorded in that district for that year  
-
-Source: National Crime Records Bureau (NCRB)
+- Analyze crime distribution across Indian states and districts
+- Identify states with highest reported crimes
+- Understand crime trends from 2001 to 2013
+- Detect crime categories with highest growth
+- Visualize insights using interactive Power BI dashboards
 
 ---
 
-# Data Analysis Workflow
+## 🛠 Tools & Technologies Used
 
-The project follows a typical data analytics pipeline.
-
-Raw Data  
-↓  
-Data Cleaning (Python)  
-↓  
-Exploratory Data Analysis  
-↓  
-Insight Generation  
-↓  
-Interactive Dashboard (Power BI)
+- **Python**
+  - Pandas
+  - NumPy
+  - Matplotlib
+  - Seaborn
+- **Power BI**
+- Git & GitHub
+- Jupyter Notebook
 
 ---
 
-# Key Insights
+## 📂 Project Structure
 
-• Crime in India shows a gradual upward trend from 2001 to 2013  
-• Large states such as **Madhya Pradesh, Maharashtra, and Tamil Nadu** report the highest total crime counts  
-• Property crimes like **theft and auto theft dominate overall crime statistics**  
-• Metropolitan districts such as **Bangalore Commissionerate and Mumbai Commissionerate** record the highest crime totals  
-• Several crime categories show significant growth between 2001 and 2013  
-
----
-
-# Dashboard Pages
-
-The Power BI dashboard contains three analytical views.
-
-### 1 Crime Overview
-Shows national crime trends, top states, and top districts.
-
-### 2 Crime Category Analysis
-Highlights major crime categories and their contribution to total crimes.
-
-### 3 Crime Geography
-Geographical visualization of crime distribution across Indian states.
-
----
-
-# Project Structure
+india-crime-intelligence-dashboard
+│
+├── dashboards
+│ └── crime_intelligence_dashboard.pbix
+│
+├── data
+│ ├── raw
+│ │ └── Crimes_in_india_2001-2013.csv
+│ └── cleaned
+│ └── clean_crime_data.csv
+│
+├── images
+│ ├── crime_overview.png
+│ ├── crime_category.png
+│ └── crime_map.png
+│
+├── notebooks
+│ └── crime_analysis.ipynb
+│
+├── README.md
+└── requirements.txt
 
 ---
 
-# Dashboard Preview
+## 🔎 Data Cleaning Process
 
-### Crime Overview
-![Crime Overview](images/crime_overview.png)
+- Removed summary rows such as `TOTAL` and `ZZ`
+- Standardized state names
+- Aggregated crime totals at state and district levels
+- Created a cleaned dataset for Power BI
 
-### Crime Category Analysis
+Cleaned dataset exported as: data/cleaned/clean_crime_data.csv
+
+
+---
+
+## 📊 Key Insights
+
+- 📈 Crime levels steadily increased between 2001 and 2013
+- 🏙 Large states such as Madhya Pradesh and Maharashtra recorded the highest crime totals
+- 🚗 Property crimes (theft, auto theft) dominate overall statistics
+- 🌆 Major metropolitan districts report highest crime volumes
+- 🔺 Certain crime categories experienced significant growth over the period
+
+---
+
+## 📈 Dashboard Preview
+
+### 🗺 Crime Distribution Map
+![Crime Map](images/crime_map.png)
+
+### 📊 Crime Category Analysis
 ![Crime Category](images/crime_category.png)
 
-### Crime Geography
-![Crime Map](images/crime_map.png)
+### 📈 State-Level Overview
+![Crime Overview](images/crime_overview.png)
+
+---
+
+## 🚀 How to Run This Project
+
+1. Clone the repository: git clone https://github.com/Harshal7342/india-crime-intelligence-dashboard.git
+
+2. Install dependencies: pip install -r requirements.txt
+
+3. Open the Jupyter notebook: notebooks/crime_analysis.ipynb
+
+4. Open Power BI dashboard: dashboards/crime_intelligence_dashboard.pbix
+
+---
+
+## ⚠ Dataset Limitation
+
+The dataset includes crime records up to **2013**.  
+Although historical, this data helps analyze long-term crime trends and understand structural patterns in crime distribution.
+
+---
+
+## 📌 Future Improvements
+
+- Add population-adjusted crime rate analysis
+- Integrate updated crime data (post-2013)
+- Deploy dashboard to Power BI Service
+- Add predictive modeling using machine learning
+
+---
+
+## 👨‍💻 Author
+
+**Harshal Mahajan**  
+Aspiring Data Analyst | Python | Power BI  
