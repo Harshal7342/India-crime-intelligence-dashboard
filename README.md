@@ -81,14 +81,15 @@ Cleaned dataset exported as: data/cleaned/clean_crime_data.csv
 
 ## 📈 Dashboard Preview
 
-### 🗺 Crime Distribution Map
-![Crime Map](images/crime_map.png)
+### 📈 State-Level Overview
+![Crime Overview](images/crime_overview.png)
 
 ### 📊 Crime Category Analysis
 ![Crime Category](images/crime_category.png)
 
-### 📈 State-Level Overview
-![Crime Overview](images/crime_overview.png)
+### 🗺 Crime Distribution Map
+![Crime Map](images/crime_map.png)
+
 
 ---
 
