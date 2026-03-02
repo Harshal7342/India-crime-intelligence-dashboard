@@ -33,28 +33,29 @@ The goal of this project is to:
 
 ## 📂 Project Structure
 
-india-crime-intelligence-dashboard
+```
+india-crime-intelligence-dashboard/
 │
-├── dashboards
-│ └── crime_intelligence_dashboard.pbix
+├── dashboards/
+│   └── crime_intelligence_dashboard.pbix
 │
-├── data
-│ ├── raw
-│ │ └── Crimes_in_india_2001-2013.csv
-│ └── cleaned
-│ └── clean_crime_data.csv
+├── data/
+│   ├── raw/
+│   │   └── Crimes_in_india_2001-2013.csv
+│   └── cleaned/
+│       └── clean_crime_data.csv
 │
-├── images
-│ ├── crime_overview.png
-│ ├── crime_category.png
-│ └── crime_map.png
+├── images/
+│   ├── crime_overview.png
+│   ├── crime_category.png
+│   └── crime_map.png
 │
-├── notebooks
-│ └── crime_analysis.ipynb
+├── notebooks/
+│   └── crime_analysis.ipynb
 │
 ├── README.md
 └── requirements.txt
-
+```
 ---
 
 ## 🔎 Data Cleaning Process
