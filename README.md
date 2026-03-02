@@ -121,19 +121,23 @@ india-crime-intelligence-dashboard/
 
 ## How to Run
 
-1. Clone the repository: 
+1. Clone the repository:
+
 git clone https://github.com/Harshal7342/india-crime-intelligence-dashboard.git
 
 
-2. Install dependencies: 
+2. Install dependencies:
+
 pip install -r requirements.txt
 
 
-3. Open the Jupyter Notebook: 
+3. Open the Jupyter Notebook:
+
 notebooks/crime_analysis.ipynb
 
 
-4. Open the Power BI dashboard: 
+4. Open the Power BI dashboard:
+
 dashboards/crime_intelligence_dashboard.pbix
 
 
