@@ -77,41 +77,44 @@ data/cleaned/clean_crime_data.csv
 
 ## Dashboard Preview
 
-### Crime Distribution Map
-![Crime Map](images/crime_map.png)
+### State-Level Overview
+![Crime Overview](images/crime_overview.png)
 
 ### Crime Category Analysis
 ![Crime Category](images/crime_category.png)
 
-### State-Level Overview
-![Crime Overview](images/crime_overview.png)
+### Crime Distribution Map
+![Crime Map](images/crime_map.png)
+
+
 
 ---
 
 ## Project Structure
 
-
+```
 india-crime-intelligence-dashboard/
 │
 ├── dashboards/
-│ └── crime_intelligence_dashboard.pbix
+│   └── crime_intelligence_dashboard.pbix
 │
 ├── data/
-│ ├── raw/
-│ │ └── Crimes_in_india_2001-2013.csv
-│ └── cleaned/
-│ └── clean_crime_data.csv
+│   ├── raw/
+│   │   └── Crimes_in_india_2001-2013.csv
+│   └── cleaned/
+│       └── clean_crime_data.csv
 │
 ├── images/
-│ ├── crime_overview.png
-│ ├── crime_category.png
-│ └── crime_map.png
+│   ├── crime_overview.png
+│   ├── crime_category.png
+│   └── crime_map.png
 │
 ├── notebooks/
-│ └── crime_analysis.ipynb
+│   └── crime_analysis.ipynb
 │
 ├── README.md
 └── requirements.txt
+```
 
 
 ---
